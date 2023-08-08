@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_web_components=self.webpackChunkreact_web_components||[]).push([[143],{374:(e,t,n)=>{var c=n(294),r=n(745);function a(){return c.createElement("sequence-media",{"data-text":"React",onClick:function(e){return console.log("React click",e)}})}var o=document.getElementById("app");(0,r.s)(o).render(c.createElement(a,null))},745:(e,t,n)=>{var c=n(935);t.s=c.createRoot,c.hydrateRoot}},e=>{e.O(0,[216],(()=>{return t=374,e(e.s=t);var t}));e.O()}]);
+//# sourceMappingURL=app.js.map

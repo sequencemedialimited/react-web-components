@@ -1,0 +1,6 @@
+{
+  "globals": {
+    "HTMLElement": "readonly",
+    "customElements": "readonly"
+  }
+}

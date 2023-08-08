@@ -1,7 +1,7 @@
 {
   "name": "react-web-components",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "main": "index.mjs",
   "type": "module",
   "author": "Jonathan Perry for Sequence Media Limited <sequencemedia@sequencemedia.net>",
@@ -14,6 +14,10 @@
     "lint": "eslint . --ext .mjs,.cjs,.jsx,.mts,.cts,.tsx",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "husky install"
+  },
+  "dependencies": {
+    "debug": "^4.3.4",
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
@@ -36,9 +40,5 @@
     "terser-webpack-plugin": "^5.3.9",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
-    "debug": "^4.3.4",
-    "express": "^4.18.2"
   }
 }

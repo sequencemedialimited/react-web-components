@@ -4,13 +4,17 @@
   "private": true,
   "main": "index.mjs",
   "type": "module",
-  "author": "Jonathan Perry for Sequence Media Limited <sequencemedia@sequencemedia.net>",
+  "author": {
+    "name": "Jonathan Perry for Sequence Media Limited",
+    "email": "sequencemedia@sequencemedia.net",
+    "url": "http://sequencemedia.net"
+  },
   "license": "ISC",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "build:dev": "cross-env NODE_ENV=development webpack --mode development",
-    "start": "DEBUG=react-web-components cross-env NODE_ENV=production node .",
-    "start:dev": "DEBUG=react-web-components cross-env NODE_ENV=development node .",
+    "start": "cross-env DEBUG=react-web-components NODE_ENV=production node .",
+    "start:dev": "cross-env DEBUG=react-web-components NODE_ENV=development node .",
     "lint": "eslint . --ext .mjs,.cjs,.jsx,.mts,.cts,.tsx",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "husky install"
@@ -20,9 +24,9 @@
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.9",
-    "@babel/eslint-parser": "^7.22.9",
-    "@babel/preset-env": "^7.22.9",
+    "@babel/core": "^7.22.10",
+    "@babel/eslint-parser": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
     "@babel/preset-react": "^7.22.5",
     "@sequencemedia/hooks": "^1.0.444",
     "babel-loader": "^9.1.3",

@@ -76,7 +76,7 @@ export default function common (env, { mode = NODE_ENV } = {}) {
             from: path.join(clientPath, 'components'),
             to: path.join(assetsPath, 'components')
           }
-        ],
+        ]
       })
     ],
     optimization: {
